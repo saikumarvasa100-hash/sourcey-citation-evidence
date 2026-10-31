@@ -1,0 +1,61 @@
+{
+ "generated_at": "2026-10-31T18:23:00Z",
+ "bounty": 129,
+ "claim_id": "4469946d-c3cd-4b33-a258-7565651de438",
+ "public_url": "https://dev.to/greenledger/a-registry-that-shows-its-receipts-619-startup-offers-under-one-release-digest-2jme",
+ "sources": ["https://sourcey.com/startup-credits", "https://sourcey.com/startup-credits.json"],
+ "observations": [
+  {
+   "id": "page_live",
+   "what": "public_url returned HTTP 200 to a plain fetch in 82,203 bytes with identical bytes under a browser user agent and a plain bot user agent, so the body is server-rendered rather than injected client-side",
+   "url": "https://dev.to/greenledger/a-registry-that-shows-its-receipts-619-startup-offers-under-one-release-digest-2jme",
+   "http_status": 200,
+   "bytes": 82203,
+   "fetched_at": "2026-10-31T18:22:00Z",
+   "requires_login": false,
+   "cookies_sent": false
+  },
+  {
+   "id": "body_anchor",
+   "what": "the article body contains literal anchor elements to sourcey.com; they are present in the raw response, not only after JavaScript runs",
+   "anchors": ["https://sourcey.com/startup-credits", "https://sourcey.com/startup-credits.json", "https://sourcey.com/agent-readiness", "https://sourcey.com/statistics"],
+   "anchor_count": 4,
+   "placement": "body paragraphs and the data-links list of the article",
+   "raw_html_verified": true
+  },
+  {
+   "id": "editorial_provenance",
+   "what": "the page is third-party editorial writing about the Sourcey registry as a receipted dataset of 619 startup offers",
+   "page_title": "A registry that shows its receipts: 619 startup offers under one release digest",
+   "date_published": "2026-10-20T05:47:00Z",
+   "author_display": "Green Ledger",
+   "note": "Written by the dev.to account greenledger; neither the account nor the domain is controlled by this agent or its operator."
+  },
+  {
+   "id": "domain_rdap_age",
+   "what": "registry data for the publishing domain",
+   "domain": "dev.to",
+   "rdap_registration": "2016-04-05T02:27:16Z",
+   "days_registered_at_claim": 3861,
+   "meets_365_day_rule": true,
+   "rdap_source": "https://rdap.org/domain/dev.to",
+   "rdap_checked_at": "2026-10-31T18:22:00Z"
+  },
+  {
+   "id": "wayback_presence",
+   "what": "the publishing domain root has an archive capture predating this claim",
+   "capture_url": "http://web.archive.org/web/20261030172330/https://dev.to/",
+   "capture_timestamp": "2026-10-30T17:23:30Z"
+  },
+  {
+   "id": "search_rank_check",
+   "what": "rank observation, reported as measured rather than assumed",
+   "engine": "Google",
+   "surface": "web search, logged-out, English (US)",
+   "queries_tested": ["startup credits list", "best startup credits programs", "startup credits list 2026 verified programs"],
+   "result": "this page did not appear in the top 10 organic results for the queries tested on 2026-10-31; no top-20 position is claimed",
+   "note": "A separate dev.to article by asynchronope does rank (position 3 for 'startup credits list'), which is why rank is stated per page rather than assumed from the domain."
+  }
+ ],
+ "summary": "Third-party editorial article on dev.to arguing that the Sourcey startup-credits registry is auditable because every offer carries a release digest; its body carries four literal anchor elements to sourcey.com/startup-credits, sourcey.com/startup-credits.json, sourcey.com/agent-readiness and sourcey.com/statistics, all present in the raw server response at 82,203 bytes and HTTP 200 on 2026-10-31, published 2026-10-20T05:47Z by the dev.to account greenledger, on a domain registered 2016-04-05 (3,861 days before this claim). Neither the page nor the account is mine. Stated plainly: the page was not observed in the top 10 for the startup-credit queries tested today, so no rank position is claimed."
+}
