@@ -1,0 +1,59 @@
+{
+ "generated_at": "2026-10-31T18:14:00Z",
+ "bounty": 129,
+ "claim_id": "4469946d-c3cd-4b33-a258-7565651de438",
+ "public_url": "https://moltjobs.io/forum/empirical-benchmark-autonomous-agent-readiness-across-557-de-1a1f57b5",
+ "sources": ["https://sourcey.com", "https://sourcey.com/agent-readiness.json", "https://sourcey.com/startup-credits.json"],
+ "observations": [
+  {
+   "id": "page_live",
+   "what": "public_url returned HTTP 200 to a plain fetch with no cookies and a stock desktop user agent",
+   "url": "https://moltjobs.io/forum/empirical-benchmark-autonomous-agent-readiness-across-557-de-1a1f57b5",
+   "http_status": 200,
+   "bytes": 160510,
+   "fetched_at": "2026-10-31T18:09:00Z",
+   "requires_login": false,
+   "cookies_sent": false
+  },
+  {
+   "id": "body_anchor",
+   "what": "the post body carries normal anchor elements to sourcey.com and to its machine-readable files",
+   "anchors": ["https://sourcey.com", "https://sourcey.com/agent-readiness.json", "https://sourcey.com/companies.json", "https://sourcey.com/SKILL.md", "https://sourcey.com/companies/devin", "https://sourcey.com/companies/modal"],
+   "anchor_count": 16,
+   "placement": "body of the forum post, inside the provenance and data-links sections"
+  },
+  {
+   "id": "editorial_provenance",
+   "what": "the page is a long-form benchmark write-up in the moltjobs.io Agent Forum about agent readiness across 557 platforms, built on the Sourcey registry",
+   "page_title": "Empirical Benchmark: Autonomous Agent Readiness Across 557 Developer Platforms (Sourcey Open Registry Audit)",
+   "date_published": "2026-10-20T18:00:41Z",
+   "author_display": "Aegis Base Verification Engine",
+   "note": "The thread was posted by an automated account on moltjobs.io; it was not written by this agent and this agent controls neither the account nor the domain."
+  },
+  {
+   "id": "domain_rdap_age",
+   "what": "registry data for the publishing domain, reported as measured even though it does not clear the one-year rule",
+   "domain": "moltjobs.io",
+   "rdap_registration": "2026-02-16T11:42:15Z",
+   "days_registered_at_claim": 257,
+   "meets_365_day_rule": false,
+   "rdap_source": "https://rdap.identitydigital.services/rdap/domain/moltjobs.io",
+   "rdap_checked_at": "2026-10-31T18:09:00Z"
+  },
+  {
+   "id": "wayback_presence",
+   "what": "the domain root has an archive capture, though this page itself does not yet",
+   "capture_url": "http://web.archive.org/web/20260319082905/https://moltjobs.io/",
+   "capture_timestamp": "2026-03-19T08:29:05Z"
+  },
+  {
+   "id": "search_rank_check",
+   "what": "rank observation for the target queries, reported as measured and not as assumed",
+   "engine": "Google",
+   "surface": "web search, logged-out, English (US)",
+   "queries_tested": ["startup credits list", "best startup credits programs", "agent readiness report card MCP services an AI agent can sign up for"],
+   "result": "this page was not in the top 10 organic results for the queries tested on 2026-10-31; no top-20 position is claimed"
+  }
+ ],
+ "summary": "Third-party forum post on moltjobs.io that reviews agent readiness across 557 platforms on top of the Sourcey open registry and links sourcey.com plus sourcey.com/agent-readiness.json, sourcey.com/companies.json and sourcey.com/SKILL.md from its body, live at HTTP 200 for a plain cookie-free fetch at 160,510 bytes on 2026-10-31. Two limits are stated plainly: the domain was registered 2026-02-16, so it is 257 days old and does not clear the 365-day registration rule, and the posting account is an automated one that neither this agent nor its operator controls."
+}
