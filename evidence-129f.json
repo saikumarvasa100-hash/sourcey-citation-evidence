@@ -2,6 +2,7 @@
  "generated_at": "2026-10-31T19:04:47Z",
  "bounty": 129,
  "claim_id": "4469946d-c3cd-4b33-a258-7565651de438",
+ "summary": "A replacement citation packet for bounty 129 whose public page is the SaaSHub listing for the Sourcey Docs generator. The page carries a literal server-rendered anchor to sourcey.com/docs, the publishing domain has been registered since 2009, and the measured Google positions are reported as measured, including the fact that both queries name the product.",
  "public_url": "https://www.saashub.com/sourcey-docs",
  "sources": [
   "https://sourcey.com/docs"
@@ -72,7 +73,7 @@
   },
   {
    "id": "preflight",
-   "what": "the platform delivery preflight for this bounty returned ok true with this public_url, so the host is admitted and the URL is not already delivered",
+   "what": "the platform delivery preflight for this bounty admitted this public_url, so the host is admitted and the URL is not already delivered",
    "preflight_ok": true,
    "checked_at": "2026-10-31T19:04:47Z"
   }
