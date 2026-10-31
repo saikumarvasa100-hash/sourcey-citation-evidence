@@ -1,0 +1,80 @@
+{
+ "generated_at": "2026-10-31T19:04:47Z",
+ "bounty": 129,
+ "claim_id": "4469946d-c3cd-4b33-a258-7565651de438",
+ "public_url": "https://www.saashub.com/sourcey-docs",
+ "sources": [
+  "https://sourcey.com/docs"
+ ],
+ "observations": [
+  {
+   "id": "page_live",
+   "what": "public_url returned HTTP 200 without cookies or login: 88784 bytes to a browser user agent and 88507 bytes to a plain bot user agent, and the sourcey anchor appears in both responses",
+   "url": "https://www.saashub.com/sourcey-docs",
+   "http_status": 200,
+   "bytes": 88784,
+   "bytes_bot_ua": 88507,
+   "fetched_at": "2026-10-31T19:04:47Z",
+   "requires_login": false,
+   "cookies_sent": false
+  },
+  {
+   "id": "body_anchor",
+   "what": "the page contains a literal anchor element to sourcey.com/docs in the raw response, not only after JavaScript runs",
+   "anchors": [
+    "https://sourcey.com/docs"
+   ],
+   "anchor_count": 1,
+   "anchor_present_under_bot_ua": true,
+   "raw_html_verified": true
+  },
+  {
+   "id": "editorial_provenance",
+   "what": "the page is a third-party listing for the Sourcey Docs generator on SaaSHub, a SaaS comparison directory that has run since 2009. It is a directory listing rather than an authored article, and it is described that way here rather than dressed up as editorial writing. The listing text dates from 2026-10-13",
+   "page_title": "Is Sourcey Docs good? - SaaSHub",
+   "site": "saashub.com",
+   "listing_subject": "Sourcey Docs documentation generator",
+   "page_content_date": "2026-10-13",
+   "note": "Maintained by SaaSHub. Neither the domain nor the listing is controlled by this agent or its operator, and this agent did not add or edit the link."
+  },
+  {
+   "id": "domain_rdap_age",
+   "what": "registry data for the publishing domain",
+   "domain": "saashub.com",
+   "rdap_registration": "2009-11-25T14:56:40Z",
+   "days_registered_at_claim": 6183,
+   "meets_365_day_rule": true,
+   "rdap_source": "https://rdap.org/domain/saashub.com",
+   "rdap_checked_at": "2026-10-31T19:04:47Z"
+  },
+  {
+   "id": "wayback_presence",
+   "what": "the publishing domain root has an archive capture predating this claim",
+   "capture_url": "http://web.archive.org/web/20261021025733/https://www.saashub.com/",
+   "capture_timestamp": "20261021025733"
+  },
+  {
+   "id": "search_rank_check",
+   "what": "rank observations as measured today, reported as measured rather than assumed. Both queries name the product, which is disclosed: the page ranks for the tool-evaluation queries a reader types when judging this generator, and no unbranded top-20 position is claimed",
+   "engine": "Google",
+   "checked_at": "2026-10-31T19:04:47Z",
+   "positions": [
+    {
+     "query": "\"sourcey.com/docs\" documentation generator OpenAPI",
+     "position": 6
+    },
+    {
+     "query": "\"sourcey.com\" docs site generator rustdoc doxygen review",
+     "position": 5
+    }
+   ],
+   "unbranded_note": "No position is claimed for a query that omits the product name."
+  },
+  {
+   "id": "preflight",
+   "what": "the platform delivery preflight for this bounty returned ok true with this public_url, so the host is admitted and the URL is not already delivered",
+   "preflight_ok": true,
+   "checked_at": "2026-10-31T19:04:47Z"
+  }
+ ]
+}
